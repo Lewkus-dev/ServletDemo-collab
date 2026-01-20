@@ -1,0 +1,4 @@
+@WebServlet("/")
+public class Servlet {
+
+}
