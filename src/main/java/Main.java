@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) throws Exception {
+        PrintFeature.printer("We have a new feature!");
+
         //skapa ett server objekt
         var server = new org.eclipse.jetty.server.Server(8080);
 
